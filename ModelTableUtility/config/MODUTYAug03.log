@@ -1,0 +1,224 @@
+Aug 03 12:24:22: tableData.LoadGrid error - table CAMP column spy_eff_mod not in DB 
+Aug 03 12:24:22: tableData.LoadGrid error - table CAMP column pr_spy_flw not in DB 
+Aug 03 12:24:23: Model Table Utility - Form Unloading 
+Aug 03 12:24:23: Model Table Utility - Closing Database Connection 
+Aug 03 12:24:23: Model Table Utility - Form Unloaded 
+Aug 03 12:24:24: Model Table Utility - Terminated 
+Aug 03 12:24:52: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 12:24:53: Connected to Model Table database 
+Aug 03 12:24:57: addRecordSet(), Error: 该游标未声明。 
+Aug 03 12:24:57: addRecordSet(), Error: 列名 'R1001010' 无效。 
+Aug 03 12:24:57: Table CAGP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 12:25:03: addRecordSet(), Error: 该游标未声明。 
+Aug 03 12:25:03: addRecordSet(), Error: 列名 'R1001040' 无效。 
+Aug 03 12:25:03: Table CAGP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 12:25:09: tableData.LoadGrid error - table CAMP column spy_eff_mod not in DB 
+Aug 03 12:25:09: tableData.LoadGrid error - table CAMP column pr_spy_flw not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column tmp_vern_ce not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column tmp_corr_ce not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column updates_ce not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column last_update_ce not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column tmp_corr_int not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column tmpBkpt not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column hhtCode not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column patCode not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column effMod not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column hhVern not in DB 
+Aug 03 12:25:12: tableData.LoadGrid error - table CAPP column htVern not in DB 
+Aug 03 12:25:35: tableData.LoadGrid error - table CSPP column in_pat not in DB 
+Aug 03 12:25:35: tableData.LoadGrid error - table CSPP column seq_num not in DB 
+Aug 03 12:25:35: tableData.LoadGrid error - table CSPP column min_flw not in DB 
+Aug 03 12:25:35: tableData.LoadGrid error - table CSPP column max_flw not in DB 
+Aug 03 12:27:20: Model Table Utility - Form Unloading 
+Aug 03 12:27:20: Model Table Utility - Closing Database Connection 
+Aug 03 12:27:20: Model Table Utility - Form Unloaded 
+Aug 03 12:27:20: Model Table Utility - Terminated 
+Aug 03 12:27:53: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 12:27:54: Connected to Model Table database 
+Aug 03 12:27:58: Model Table Utility - Form Unloading 
+Aug 03 12:27:58: Model Table Utility - Closing Database Connection 
+Aug 03 12:27:58: Model Table Utility - Form Unloaded 
+Aug 03 12:27:58: Model Table Utility - Terminated 
+Aug 03 12:28:40: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 12:28:41: Connected to Model Table database 
+Aug 03 12:29:56: tableData.LoadGrid error - table FPRP column load_dist not in DB 
+Aug 03 12:29:56: tableData.LoadGrid error - table FPRP column puddes not in DB 
+Aug 03 12:31:15: entRec(), Error: 该游标未声明。 
+Aug 03 12:31:15: entRec(), Error: 列名 'grade_name' 无效。 
+Aug 03 12:31:21: entRec(), Error: 该游标未声明。 
+Aug 03 12:31:21: entRec(), Error: 列名 'grade_name' 无效。 
+Aug 03 12:46:48: tableData.LoadGrid error - table CBXPRP column bend_roll_coef not in DB 
+Aug 03 12:46:48: tableData.LoadGrid error - table CBXPRP column cb_pinch_gap_off not in DB 
+Aug 03 12:46:48: tableData.LoadGrid error - table CBXPRP column entry_pinch_gap_off not in DB 
+Aug 03 12:46:48: tableData.LoadGrid error - table CBXPRP column exit_pinch_gap_off not in DB 
+Aug 03 12:47:10: tableData.initDataBase Error: - table RAWPnot in database 
+Aug 03 12:47:13: tableData.initDataBase Error: - table RAWPnot in database 
+Aug 03 12:47:21: tableData.initDataBase Error: - table RFWPnot in database 
+Aug 03 12:49:12: tableData.LoadGrid error - table CBXPRP column bend_roll_coef not in DB 
+Aug 03 12:49:12: tableData.LoadGrid error - table CBXPRP column cb_pinch_gap_off not in DB 
+Aug 03 12:49:12: tableData.LoadGrid error - table CBXPRP column entry_pinch_gap_off not in DB 
+Aug 03 12:49:12: tableData.LoadGrid error - table CBXPRP column exit_pinch_gap_off not in DB 
+Aug 03 12:49:17: tableData.LoadGrid error - table CBXPRP column bend_roll_coef not in DB 
+Aug 03 12:49:17: tableData.LoadGrid error - table CBXPRP column cb_pinch_gap_off not in DB 
+Aug 03 12:49:17: tableData.LoadGrid error - table CBXPRP column entry_pinch_gap_off not in DB 
+Aug 03 12:49:17: tableData.LoadGrid error - table CBXPRP column exit_pinch_gap_off not in DB 
+Aug 03 12:52:20: tableData.LoadGrid error - table FPRP column load_dist not in DB 
+Aug 03 12:52:20: tableData.LoadGrid error - table FPRP column puddes not in DB 
+Aug 03 12:53:05: Table RPRP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 12:53:07: entRec(), Error: 该游标未声明。 
+Aug 03 12:53:07: entRec(), Error: 列名 'grade_name' 无效。 
+Aug 03 12:58:55: Model Table Utility - Form Unloading 
+Aug 03 12:58:55: Model Table Utility - Closing Database Connection 
+Aug 03 12:58:55: Model Table Utility - Form Unloaded 
+Aug 03 12:58:55: Model Table Utility - Terminated 
+Aug 03 12:59:13: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 12:59:14: Connected to Model Table database 
+Aug 03 13:13:43: Model Table Utility - Form Unloading 
+Aug 03 13:13:43: Model Table Utility - Closing Database Connection 
+Aug 03 13:13:43: Model Table Utility - Form Unloaded 
+Aug 03 13:13:43: Model Table Utility - Terminated 
+Aug 03 13:14:35: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:14:37: Connected to Model Table database 
+Aug 03 13:21:52: Model Table Utility - Form Unloading 
+Aug 03 13:21:52: Model Table Utility - Closing Database Connection 
+Aug 03 13:21:52: Model Table Utility - Form Unloaded 
+Aug 03 13:21:52: Model Table Utility - Terminated 
+Aug 03 13:21:58: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:21:59: Connected to Model Table database 
+Aug 03 13:29:48: Model Table Utility - Form Unloading 
+Aug 03 13:29:48: Model Table Utility - Closing Database Connection 
+Aug 03 13:29:48: Model Table Utility - Form Unloaded 
+Aug 03 13:29:49: Model Table Utility - Terminated 
+Aug 03 13:30:08: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:30:09: Connected to Model Table database 
+Aug 03 13:30:44: Model Table Utility - Form Unloading 
+Aug 03 13:30:44: Model Table Utility - Closing Database Connection 
+Aug 03 13:30:44: Model Table Utility - Form Unloaded 
+Aug 03 13:30:44: Model Table Utility - Terminated 
+Aug 03 13:39:46: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:39:48: Connected to Model Table database 
+Aug 03 13:40:39: entRec(), Error: 该游标未声明。 
+Aug 03 13:40:39: entRec(), Error: 列名 'grade_name' 无效。 
+Aug 03 13:46:34: Table RPRP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 13:46:37: entRec(), Error: 该游标未声明。 
+Aug 03 13:46:37: entRec(), Error: 列名 'grade_name' 无效。 
+Aug 03 13:46:41: Model Table Utility - Form Unloading 
+Aug 03 13:46:41: Model Table Utility - Closing Database Connection 
+Aug 03 13:46:41: Model Table Utility - Form Unloaded 
+Aug 03 13:46:41: Model Table Utility - Terminated 
+Aug 03 13:46:50: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:46:52: Connected to Model Table database 
+Aug 03 13:48:15: Model Table Utility - Form Unloading 
+Aug 03 13:48:15: Model Table Utility - Closing Database Connection 
+Aug 03 13:48:15: Model Table Utility - Form Unloaded 
+Aug 03 13:48:15: Model Table Utility - Terminated 
+Aug 03 13:48:21: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:48:22: Connected to Model Table database 
+Aug 03 13:54:35: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:54:37: Connected to Model Table database 
+Aug 03 13:54:41: Model Table Utility - Form Unloading 
+Aug 03 13:54:41: Model Table Utility - Closing Database Connection 
+Aug 03 13:54:41: Model Table Utility - Form Unloaded 
+Aug 03 13:54:41: Model Table Utility - Terminated 
+Aug 03 13:54:46: Model Table Utility - Form Unloading 
+Aug 03 13:54:46: Model Table Utility - Closing Database Connection 
+Aug 03 13:54:46: Model Table Utility - Form Unloaded 
+Aug 03 13:54:46: Model Table Utility - Terminated 
+Aug 03 13:54:48: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 13:54:49: Connected to Model Table database 
+Aug 03 14:07:38: Model Table Utility - Form Unloading 
+Aug 03 14:07:38: Model Table Utility - Closing Database Connection 
+Aug 03 14:07:38: Model Table Utility - Form Unloaded 
+Aug 03 14:07:38: Model Table Utility - Terminated 
+Aug 03 14:07:40: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:07:41: Connected to Model Table database 
+Aug 03 14:09:11: Model Table Utility - Form Unloading 
+Aug 03 14:09:11: Model Table Utility - Closing Database Connection 
+Aug 03 14:09:11: Model Table Utility - Form Unloaded 
+Aug 03 14:09:11: Model Table Utility - Terminated 
+Aug 03 14:14:17: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:14:18: Connected to Model Table database 
+Aug 03 14:19:15: Model Table Utility - Form Unloading 
+Aug 03 14:19:15: Model Table Utility - Closing Database Connection 
+Aug 03 14:19:15: Model Table Utility - Form Unloaded 
+Aug 03 14:19:15: Model Table Utility - Terminated 
+Aug 03 14:19:22: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:19:23: Connected to Model Table database 
+Aug 03 14:23:02: Model Table Utility - Form Unloading 
+Aug 03 14:23:02: Model Table Utility - Closing Database Connection 
+Aug 03 14:23:02: Model Table Utility - Form Unloaded 
+Aug 03 14:23:02: Model Table Utility - Terminated 
+Aug 03 14:24:18: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:24:19: Connected to Model Table database 
+Aug 03 14:24:24: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:24:24: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:24:38: Model Table Utility - Form Unloading 
+Aug 03 14:24:38: Model Table Utility - Closing Database Connection 
+Aug 03 14:24:38: Model Table Utility - Form Unloaded 
+Aug 03 14:24:38: Model Table Utility - Terminated 
+Aug 03 14:25:26: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:25:28: Connected to Model Table database 
+Aug 03 14:25:33: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:25:33: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:26:23: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:26:32: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:26:36: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:28:11: Model Table Utility - Form Unloading 
+Aug 03 14:28:11: Model Table Utility - Closing Database Connection 
+Aug 03 14:28:11: Model Table Utility - Form Unloaded 
+Aug 03 14:28:11: Model Table Utility - Terminated 
+Aug 03 14:28:16: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:28:17: Connected to Model Table database 
+Aug 03 14:28:23: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:28:23: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:28:26: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:28:30: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:28:54: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:28:54: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:31:21: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:31:21: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:31:37: Model Table Utility - Form Unloading 
+Aug 03 14:31:37: Model Table Utility - Closing Database Connection 
+Aug 03 14:31:37: Model Table Utility - Form Unloaded 
+Aug 03 14:31:37: Model Table Utility - Terminated 
+Aug 03 14:32:17: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 14:32:18: Connected to Model Table database 
+Aug 03 14:32:29: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:32:29: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:32:46: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 14:32:46: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 14:33:01: Error: initCellEdit, unknown exception occured Error number 383: 'Text' property is read-only 
+Aug 03 14:36:15: Model Table Utility - Form Unloading 
+Aug 03 14:36:15: Model Table Utility - Closing Database Connection 
+Aug 03 14:36:15: Model Table Utility - Form Unloaded 
+Aug 03 14:36:15: Model Table Utility - Terminated 
+Aug 03 15:03:34: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 15:03:35: Connected to Model Table database 
+Aug 03 15:04:57: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 15:04:58: Connected to Model Table database 
+Aug 03 15:05:15: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 15:05:15: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 15:05:40: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 15:05:40: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 15:09:02: tableData.LoadGrid error - table FPRP column looper_position not in DB 
+Aug 03 15:09:02: tableData.LoadGrid error - table FPRP column slip_mod not in DB 
+Aug 03 16:10:43: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 03 16:10:44: Connected to Model Table database 
+Aug 03 16:11:22: addRecordSet(), Error: 无法预定义语句。 
+Aug 03 16:11:22: addRecordSet(), Error: 对象名 'RFWP_1D' 无效。 
+Aug 03 16:11:22: Table RFWP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 16:11:31: addRecordSet(), Error: 无法预定义语句。 
+Aug 03 16:11:31: addRecordSet(), Error: 对象名 'RFWP_1D' 无效。 
+Aug 03 16:11:31: Table RFWP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 16:14:15: addRecordSet(), Error: 无法预定义语句。 
+Aug 03 16:14:15: addRecordSet(), Error: 对象名 'RFWP_1D' 无效。 
+Aug 03 16:14:15: Table RFWP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 16:14:25: Table RFWP tableData.LoadGrid error - Object variable or With block variable not set 
+Aug 03 16:34:53: Model Table Utility - Form Unloading 
+Aug 03 16:34:53: Model Table Utility - Closing Database Connection 
+Aug 03 16:34:53: Model Table Utility - Form Unloaded 
+Aug 03 16:34:53: Model Table Utility - Terminated 
+Aug 03 16:34:57: Model Table Utility - Form Unloading 
+Aug 03 16:34:57: Model Table Utility - Closing Database Connection 
+Aug 03 16:34:57: Model Table Utility - Form Unloaded 
+Aug 03 16:34:57: Model Table Utility - Terminated 

@@ -1,0 +1,14 @@
+485,13
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Family number,0
+perm_update,BOOLEAN8,1,18,4,1,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Permissive to update model table,2,False,True
+updates,SINT_32,4,18,4,4,5,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Number of Updates,0
+last_update,GE_TIME,8,18,4,8,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Latest Update date and time,0
+ztmp_err,SFLOAT,4,18,4,52,17,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,ztmp_err,zone temp error,0
+ztmp_corr,SFLOAT,4,18,4,52,69,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,ztmp_corr,zone temp correction,0
+frc_err_mean,SFLOAT,4,18,4,52,121,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kN,frc_err_mean,Mean force error for all stands,0
+frc_err_sd,SFLOAT,4,18,4,52,173,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kN,frc_err_sd,Standard deviation of force errors for all stands,0
+frc_err_ss,SFLOAT,4,18,4,52,225,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kN,frc_err_ss,Sum of Squares force error for all stands,0
+frc_err_sum,SFLOAT,4,18,4,52,277,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kN,frc_err_sum,Sum of force error for all stands,0
+frc_err_count,SINT_32,4,18,4,52,329,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,frc_err_count,frc error counter for all passes,0
+force_mult,SFLOAT,4,18,4,52,381,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,force_mult,Force multiplier,0
+power_mult,SFLOAT,4,18,4,52,433,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,power_mult,Power multiplier,0

@@ -1,0 +1,16 @@
+437,15
+grade_name,CHAR,20,18,4,20,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grade_name,Grade,0
+perm_update,BOOLEAN8,1,18,4,1,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Permissive for model table update,2,False,True
+updates,SINT_32,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Number of updates,0
+last_update,GE_TIME,8,18,4,8,25,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Date and time stamp of last update,0
+base_ratio,SFLOAT,4,18,4,4,33,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,base_ratio,Hardness ratio to base grade,0
+lheat_mult,SFLOAT,4,18,4,4,37,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,lheat_mult,Phase Transformation latent heat multiplier,0
+fs_mlt,SFLOAT,4,18,4,4,41,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mlt,Average Flow stress multiplier in RM,0
+fs_mult,SFLOAT,4,18,4,52,45,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult,Flow stress multiplier per pass,0
+fs_tmp_mult,SFLOAT,4,18,4,40,97,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,Mpa,fs_tmp_mult,Flow stress values for flow stress vs temperature,0
+fs_tmp,SFLOAT,4,18,4,40,137,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,fs_tmp,Temperature values for flow stress curve,0
+fs_mult_sd,SFLOAT,4,18,4,52,177,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult_sd,Standard deviation of flow stress multiplier for all stands,0
+fs_mult_ss,SFLOAT,4,18,4,52,229,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult_ss,Sum of Squares fs mult for all passes,0
+fs_mult_mean,SFLOAT,4,18,4,52,281,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult_mean,mean values of fs mult for all passes,0
+fs_mult_sum,SFLOAT,4,18,4,52,333,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult_sum,Sum of fs mult for all passes,0
+fs_mult_count,SINT_32,4,18,4,52,385,1,13,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fs_mult_count,fs mult counter for mean and sd calcs for all passes,0

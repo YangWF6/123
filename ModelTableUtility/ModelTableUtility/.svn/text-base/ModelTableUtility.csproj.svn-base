@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA3B0DAD-EEDE-4F9F-9062-305168F6DB4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModelTableUtility</RootNamespace>
+    <AssemblyName>ModelTableUtility</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add and Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add and Delete.Designer.cs">
+      <DependentUpon>Add and Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copy Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copy Records.Designer.cs">
+      <DependentUpon>Copy Records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File Save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File Save.Designer.cs">
+      <DependentUpon>File Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Initialize table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Initialize table.Designer.cs">
+      <DependentUpon>Initialize table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainframe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainframe.Designer.cs">
+      <DependentUpon>Mainframe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add and Delete.resx">
+      <DependentUpon>Add and Delete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy Records.resx">
+      <DependentUpon>Copy Records.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File Save.resx">
+      <DependentUpon>File Save.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Initialize table.resx">
+      <DependentUpon>Initialize table.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainframe.resx">
+      <DependentUpon>Mainframe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select Data Source.resx">
+      <DependentUpon>Select Data Source.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select Table.resx">
+      <DependentUpon>Select Table.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Select Data Source.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select Data Source.Designer.cs">
+      <DependentUpon>Select Data Source.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select Table.Designer.cs">
+      <DependentUpon>Select Table.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\Copy records.PNG" />
+    <None Include="Resources\DB save.PNG" />
+    <None Include="Resources\File load.PNG" />
+    <None Include="Resources\File Save.PNG" />
+    <None Include="Resources\refresh.PNG" />
+    <None Include="Resources\copy file.PNG" />
+    <None Include="Resources\Delete.PNG" />
+    <None Include="Resources\add.PNG" />
+    <None Include="Resources\select1.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

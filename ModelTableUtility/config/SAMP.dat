@@ -1,0 +1,14 @@
+129,13
+num_samp,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,num_samp,Number of SAMP model tables,0
+perm_update,BOOLEAN8,1,18,4,1,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Update permitted indicator,2,False,True
+last_update,GE_TIME,8,18,4,8,5,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Last update time,0
+updates,SINT_32,4,18,4,4,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Number of updates,0
+prf_vrn_rm,SFLOAT,4,18,4,4,17,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,prf_vrn_rm,Target profile vernier (re-predicted - measured),0
+prf_vrn_rs,SFLOAT,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,prf_vrn_rs,Target profile vernier (re-predicted - setup),0
+prf_err_rm,SFLOAT,4,18,4,4,25,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,prf_err_rm,Profile error (re-predicted - measured),0
+flt_vrn,SFLOAT,4,18,4,4,29,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kn,flt_vrn,Flatness vernier,0
+flt_err,SFLOAT,4,18,4,4,33,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kn,flt_err,Flatness error,0
+wr_crn_vrn,SFLOAT,4,18,4,28,37,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,wr_crn_vrn,Work roll stack crown vernier,0
+wr_crn_vrn_z,SFLOAT,4,18,4,28,65,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,wr_crn_vrn_z,Work roll stack crown vernier for fst bar after roll change coils,0
+last_pos_time,GE_TIME,8,18,4,8,93,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_pos_time,time last shift positions were saved,0
+last_pos_shft,SFLOAT,4,18,4,28,101,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,last_pos_shft,shift positions used for last coil in the mill,0

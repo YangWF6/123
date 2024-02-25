@@ -1,0 +1,11 @@
+70,10
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Grade family key,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grt_idx,Gauge range thickness key,0
+accel_norm,SFLOAT,4,18,4,8,8,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_norm,Normal acceleration key (0=holding table covers down or coil box  1=free air rad,0
+accel_base,SFLOAT,4,18,4,8,16,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_base,Base normal accelerationm rate (indexed per accel_normal),0
+avg_slope,SFLOAT,4,18,4,8,24,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C/m,avg_slope,Average transfer bar slope (indexed per accel_normal),0
+temp_vernier,SFLOAT,4,18,4,4,32,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,temp_vernier,FMX temperature vernier,0
+temp_corr,SFLOAT,4,18,4,8,36,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C/m,temp_corr,FMX temperature correction (0=first half  1=second half),0
+perm_update,BOOLEAN8,1,18,4,2,44,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Permissive for model table update (indexed per accel_normal),2,False,True
+updates,SINT_32,4,18,4,8,46,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Total number of updates (indexed per accel_normal),0
+last_update,GE_TIME,8,18,4,16,54,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Date and time stamp of last update (indexed per accel_normal),0

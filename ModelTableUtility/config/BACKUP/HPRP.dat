@@ -1,0 +1,6 @@
+80,5
+family,SINT_32,4,18,9,4,0,0,0,0,0,-1e+009,1e+009,0,0,0,0,NULL,family,family,0
+grt_idx,SINT_32,4,18,9,4,4,0,0,0,0,-1e+009,1e+009,0,0,0,0,NULL,grt_idx,grt_idx,0
+rolling_index,SINT_32,4,18,9,4,8,0,0,0,0,-1e+009,1e+009,0,0,0,0,NULL,rolling_index,rolling_index,0
+cover_states,SINT_32,4,18,9,40,12,1,10,0,0,-1e+009,1e+009,0,0,0,0,NULL,cover_states,cover_states,0
+last_update,GE_TIME,8,18,9,8,72,0,0,0,0,-1e+009,1e+009,0,0,0,0,NULL,last_update,last_update,0

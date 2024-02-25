@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Product OS="Windows">
+   <Name>Model Tables Utility</Name>
+   <Group>Maint and Diag</Group>
+   <Version>7.09.0004</Version>
+   <License>Model Tables</License>
+   <Description>This product installs the Model Table Utility, which is used to manage the Models Tables.</Description>
+
+   <RequiredProducts>
+      <Require>IO_Services</Require>
+      <Require>SharedLibraries</Require>
+      <Require>Master DSN</Require>
+   </RequiredProducts>
+
+    <Configuration>
+        <Item>
+            <Description>Model Tables ODBC Configuration</Description> 
+        </Item>
+        <Item>
+            <Size>0,Normal</Size> 
+            <Description>This defines the "ModTbl" DSN used by the Model Tables Utility product.</Description> 
+        </Item>
+        <Item>
+            <Name>ModTbl</Name> 
+            <Product>DbConnections</Product> 
+            <Type>DSN</Type> 
+            <Size>1,1</Size> 
+            <Description>Model Tables database</Description> 
+        </Item>    
+        <Item>
+            <Name>CFG_DIR</Name>
+            <Type>Hidden</Type>
+            <Default>%Product_Path%\Model Tables Utility</Default>
+        </Item>
+        <Item>
+            <Name>CFG_FILE</Name>
+            <Type>Hidden</Type>
+            <Default>ModTbls.cfg</Default>
+        </Item>
+        <Item>
+            <Name>DSN</Name>
+            <Type>Hidden</Type>
+            <Default>ModTbl</Default>
+        </Item>
+        <Item>
+            <Name>HOMEDIR</Name>
+            <Type>Hidden</Type>
+            <Default>%Product_Path%\Model Tables Utility</Default>
+        </Item>
+        <Item>
+            <Name>DD_ONLINE</Name>
+            <Type>Hidden</Type>
+            <Default>1</Default>
+        </Item>
+        <Item>
+            <Name>DEBUG_LEVEL</Name>
+            <Type>Force</Type>
+            <Default>0</Default>
+        </Item>
+        <Item>
+            <Name>HOMEDIR</Name>
+            <Product>Hint Client</Product> 
+            <Type>Hidden</Type>
+            <Default>%Product_Path%\Model Tables Utility\</Default>
+        </Item>
+        <Item>
+            <Name>DD_ONLINE</Name>
+            <Product>Hint Client</Product> 
+            <Type>Hidden</Type>
+            <Default>1</Default>
+        </Item>
+        <Item>
+            <Name>DEBUG_LEVEL</Name>
+            <Product>Hint Client</Product> 
+            <Type>Force</Type>
+            <Default>0</Default>
+        </Item>
+    </Configuration>
+
+   <PostInstall>
+      <Delete><File>Model Tables Utility.DOC</File></Delete>
+      <Delete><File>ReleaseNotes.txt</File></Delete>
+      <Share><File>HintDLL.dll</File></Share>
+      <Copy><File>winnt\Comcat.dll</File><To>%SystemRoot%\system32\Comcat.dll</To></Copy>
+      <Copy><File>winnt\comct232.OCX</File><To>%SystemRoot%\system32\comct232.OCX</To></Copy>
+      <Copy><File>winnt\comctl32.ocx</File><To>%SystemRoot%\system32\comctl32.ocx</To></Copy>
+      <Copy><File>winnt\COMDLG32.OCX</File><To>%SystemRoot%\system32\COMDLG32.OCX</To></Copy>
+      <Copy><File>winnt\Ctl3d32.dll</File><To>%SystemRoot%\system32\Ctl3d32.dll</To></Copy>
+      <Copy><File>winnt\GAPI32.DLL</File><To>%SystemRoot%\system32\GAPI32.DLL</To></Copy>
+      <Copy><File>winnt\Msflxgrd.ocx</File><To>%SystemRoot%\system32\Msflxgrd.ocx</To></Copy>
+      <Copy><File>winnt\MsRDC20.ocx</File><To>%SystemRoot%\system32\MsRDC20.ocx</To></Copy>
+      <Copy><File>winnt\MsRDO20.dll</File><To>%SystemRoot%\system32\MsRDO20.dll</To></Copy>
+      <Copy><File>winnt\MsStkPrp.dll</File><To>%SystemRoot%\system32\MsStkPrp.dll</To></Copy>
+      <Copy><File>winnt\Msvbvm60.dll</File><To>%SystemRoot%\system32\Msvbvm60.dll</To></Copy>
+      <Copy><File>winnt\rdocurs.dll</File><To>%SystemRoot%\system32\rdocurs.dll</To></Copy>
+      <Copy><File>winnt\RICHTX32.OCX</File><To>%SystemRoot%\system32\RICHTX32.OCX</To></Copy>
+      <Copy><File>winnt\tabctl32.OCX</File><To>%SystemRoot%\system32\tabctl32.OCX</To></Copy>
+      <Run><File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\TABCTL32.ocx</Arg>
+            <OnError>Warn</OnError>
+      </Run>
+      <Run><File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\MSRDO20.dll</Arg>
+            <OnError>Warn</OnError>
+      </Run>
+        <Run>
+            <File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\oleaut32.dll</Arg>
+            <OnError>Warn</OnError>
+        </Run> 
+        <Run>
+            <File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\olepro32.dll</Arg>
+            <OnError>Warn</OnError>
+        </Run>
+        <Run>
+            <File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\Comcat.dll</Arg>
+            <OnError>Warn</OnError>
+        </Run>
+        <Run>
+            <File>%SystemRoot%\system32\regsvr32.exe</File>
+            <Arg>/s</Arg>
+            <Arg>%SystemRoot%\system32\Msflxgrd.ocx</Arg>
+            <OnError>Warn</OnError>
+        </Run>
+   </PostInstall>
+   
+   <Documentation>
+      <Item>
+         <Name>Model Tables Utility Users Guide</Name>
+         <Description>Model Tables Utility User Guide</Description>
+         <Target>Model_Tables_Utility</Target>
+      </Item>
+   </Documentation>
+
+   <Menu>
+      <Item>
+         <Name>Model Tables Utility</Name>
+         <Description>Model Tables Utility Program</Description>
+         <Target>ModTblUty.exe</Target>
+         <Utility>Model Tables</Utility>
+      </Item>
+      <Item>
+         <Name>Generate ModUty DD Info</Name>
+         <Description>Generate ModUty Data Dictionary Information</Description>
+         <Target>ModTblDDtoFile.exe</Target>
+      </Item>
+      <Item><Name>Release Notes</Name></Item>
+      <Item><Name>User's Guide</Name></Item>
+   </Menu>
+   
+</Product>

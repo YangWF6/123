@@ -1,0 +1,6 @@
+20,5
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,family,family,0
+strat,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,strat,strat,0
+draft,SINT_32,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,draft,draft,0
+permit_adapt,BOOLEAN8,1,18,4,1,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,permit_adapt,permit_adapt,2,False,True
+rm_width_adapt,SFLOAT,4,18,4,4,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,rm_width_adapt,rm_width_adapt,0

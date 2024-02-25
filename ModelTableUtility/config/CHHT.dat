@@ -1,0 +1,11 @@
+40,10
+hht_code,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,hht_code,Hot Head/Tail code,0
+tmp_ofs_head,SFLOAT,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_ofs_head,Hot head temperature offset,0
+len_head,SFLOAT,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,len_head,Hot head length,0
+xlen_head,SFLOAT,4,18,4,4,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,xlen_head,Hot transition length between head and body,0
+exp_head,SFLOAT,4,18,4,4,16,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,exp_head,Hot head trajectory exponent,0
+tmp_ofs_tail,SFLOAT,4,18,4,4,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_ofs_tail,Hot tail temperature offset,0
+len_tail,SFLOAT,4,18,4,4,24,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,len_tail,Hot tail length,0
+xlen_tail,SFLOAT,4,18,4,4,28,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,xlen_tail,Hot transition length between body and tail,0
+exp_tail,SFLOAT,4,18,4,4,32,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,exp_tail,Hot tail trajectory exponent,0
+dryHeadLen,SFLOAT,4,18,4,4,36,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,dryHeadLen,Length of dry head,0

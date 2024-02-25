@@ -1,0 +1,15 @@
+2108,14
+spy_code,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,spy_code,Spray practice code,0
+useCalcPattern,BOOLEAN8,1,18,4,1,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,useCalcPattern,Permissive to calculate spray pattern,2,False,True
+coolRateTgt,SFLOAT,4,18,4,4,5,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,degC/sec,coolRateTgt,Target cooling rate,0
+rateModTop,SFLOAT,4,18,4,4,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,pu,rateModTop,Modifier to top cooling rate,0
+rateOverride,BOOLEAN8,1,18,4,1,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,rateOverride,Flag to indicate whether rate pattern can be overridden,2,False,True
+deltaTmpTgt,SFLOAT,4,18,4,4,14,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,degC,deltaTmpTgt,Temperature delta for target CT,0
+airCoolTime,SFLOAT,4,18,4,4,18,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,sec,airCoolTime,Target air cooling time,0
+airOverride,BOOLEAN8,1,18,4,1,22,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,airOverride,Flag to indicate whether air cooling zone can be overridden,2,False,True
+reverseOrder,BOOLEAN8,1,18,4,1,23,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,reverseOrder,Flag to indicate reverse turnon order,2,False,True
+effMod,SFLOAT,4,18,4,4,24,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,pu,effMod,Pattern spray efficiency modifier,0
+in_pat,BOOLEAN8,1,18,4,160,28,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,in_pat,Spray in pattern flag,2,False,True
+seq_num,SINT_32,4,18,4,640,188,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,-,seq_num,Sequence number for turning sprays on and off,0
+min_flw,SFLOAT,4,18,4,640,828,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,pu,min_flw,Minimum spray flow allowed,0
+max_flw,SFLOAT,4,18,4,640,1468,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,pu,max_flw,Maximum spray flow allowed,0

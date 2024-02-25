@@ -1,0 +1,15 @@
+252,14
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,family,Family number Key 1,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grt_idx,Thickness table (GRT) index Key 2,0
+perm_update,BOOLEAN8,1,18,4,1,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,perm_update,Permissive to update model table,2,False,True
+exponent,SFLOAT,4,18,4,4,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,exponent,Strain Rate Exponent,0
+ztmp_corr,SFLOAT,4,18,4,28,16,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,ztmp_corr,FM zone temp correction,0
+force_mult,SFLOAT,4,18,4,28,44,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,force_mult,Force multiplier,0
+power_mult,SFLOAT,4,18,4,28,72,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,power_mult,Power multiplier,0
+tmp_err_avg,SFLOAT,4,18,4,28,100,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_err_avg,Average pass temp error,0
+tmp_err_sd,SFLOAT,4,18,4,28,128,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_err_sd,Std Dev pass temp error,0
+tmp_err_ss,SFLOAT,4,18,4,28,156,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C2,tmp_err_ss,Sum of squares of pass temp error,0
+tmp_err_sum,SFLOAT,4,18,4,28,184,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_err_sum,Sum of pass temp error,0
+tmp_err_cnt,SFLOAT,4,18,4,28,212,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,tmp_err_cnt,Pass Temp error counter,0
+updates,SINT_32,4,18,4,4,240,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,updates,Number of Updates,0
+last_update,GE_TIME,8,18,4,8,244,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,last_update,Latest Update date and time,0

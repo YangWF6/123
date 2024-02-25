@@ -1,0 +1,12 @@
+1327,11
+num_camp,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,num_camp,CAMP number key field for model table,0
+perm_update,BOOLEAN8,1,18,4,1,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Model table enabled for adaptation,2,False,True
+spy_eff_mod,SFLOAT,4,18,4,640,5,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,spy_eff_mod,Spray efficiency modifier for rot sprays,0
+pr_grade,CHAR,20,18,4,20,645,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,pr_grade,Previous product steel grade,0
+pr_tgt_thk,SFLOAT,4,18,4,4,665,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_tgt_thk,Previous product target thickness,0
+pr_tgt_tmp,SFLOAT,4,18,4,4,669,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,pr_tgt_tmp,Previous product target coiler entry temperature,0
+pr_spy_flw,SFLOAT,4,18,4,640,673,1,160,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,pr_spy_flw,Previous cooling spray flow levels for rot sprays,0
+updates,SINT_32,4,18,4,4,1313,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Update counter,0
+perm_ffwd,BOOLEAN8,1,18,4,1,1317,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_ffwd,perm_ffwd,2,False,True
+perm_fbk,BOOLEAN8,1,18,4,1,1318,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_fbk,perm_fbk,2,False,True
+last_update,GE_TIME,8,18,4,8,1319,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Last update time,0

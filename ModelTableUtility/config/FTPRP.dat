@@ -1,0 +1,17 @@
+55,16
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Grade family key,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grt_idx,Gauge range thickness key,0
+delay_dist,SFLOAT,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,delay_dist,Distance to delay before start of acceleration,0
+dly_til_clr,BOOLEAN8,1,18,4,1,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,dly_til_clr,Delay acceleration start til head at down coiler,2,False,True
+accel_norm_max,SFLOAT,4,18,4,4,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_norm_max,Maximum normal acceleration rate,0
+accel_norm_min,SFLOAT,4,18,4,4,17,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_norm_min,Minimum normal acceleration rate,0
+accel_rot,SFLOAT,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_rot,Runout table acceleration rate,0
+decmll,SFLOAT,4,18,4,4,25,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,decmll,Tailend slowdown deceleration rate,0
+tail_spd,SFLOAT,4,18,4,4,29,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps,tail_spd,Tailend tailout speed,0
+decel_stop_std,SINT_32,4,18,4,4,33,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,decel_stop_std,Stand at which tailend slowdown must stop,0
+accel_hi,SFLOAT,4,18,4,4,37,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps/s,accel_hi,High acceleration rate (indexed per accel_normal),0
+burst_permit,BOOLEAN8,1,18,4,1,41,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,burst_permit,Permissive for FTC1 high acceleration,2,False,True
+zoom_permit,BOOLEAN8,1,18,4,1,42,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,zoom_permit,Permissive for FTC2 high acceleration,2,False,True
+max_clr_hd_spd,SFLOAT,4,18,4,4,43,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mps,max_clr_hd_spd,Maximum strip head speed entering the down coiler,0
+tmp_ramp,SFLOAT,4,18,4,4,47,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_ramp,Total head-to-tail strip target temperature increase,0
+ramp_dly_dist,SFLOAT,4,18,4,4,51,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,m,ramp_dly_dist,Distance to delay before target temperature ramp is started,0

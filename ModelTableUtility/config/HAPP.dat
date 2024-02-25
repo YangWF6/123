@@ -1,0 +1,8 @@
+33,7
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Grade family key,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grt_idx,Gauge range thickness key,0
+temp_vernier,SFLOAT,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,temp_vernier,FME temperature vernier,0
+temp_corr,SFLOAT,4,18,4,8,12,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C/m,temp_corr,FME temperature correction (0=first half  1=second half),0
+perm_update,BOOLEAN8,1,18,4,1,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Permissive for model table update,2,False,True
+updates,SINT_32,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Total number of updates,0
+last_update,GE_TIME,8,18,4,8,25,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Date and time stamp of last update,0

@@ -1,0 +1,19 @@
+176,18
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,family,Family number Key-1,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grt_idx,Thickness table (GRT) index Key 2,0
+wrt_idx,SINT_32,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,wrt_idx,Width index. Key-3,0
+ROT_lead_raito,SFLOAT,4,18,4,48,12,1,12,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,ROT_lead_raito,RUN OUT TABLE LEAD RAITO,0
+PR_Lead_Raito,SFLOAT,4,18,4,4,60,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,PR_Lead_Raito,Pinch Roll Lead Raito,0
+WR_Lead_Raito,SFLOAT,4,18,4,4,64,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,WR_Lead_Raito,Wrapper Roll Lead Raito,0
+Mandrel_Lead_Raito,SFLOAT,4,18,4,4,68,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,Mandrel_Lead_Raito,Mandrel Lead Raito,0
+ROT_TABLE_Lag_RAITO,SFLOAT,4,18,4,48,72,1,12,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,ROT_TABLE_Lag_RAITO,RUN OUT TABLE Lag RAITO,0
+MD_unit_tension,SFLOAT,4,18,4,4,120,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,MP,MD__unit_tension,MD setting unit tension,0
+Integrity,SFLOAT,4,18,4,4,124,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,MP,Integrity,Integrity,0
+PR_Gap_of,SFLOAT,4,18,4,4,128,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,PR_Gap_of,Pinch Roll Gap offset,0
+MD_Min_Unit_Tension,SFLOAT,4,18,4,4,132,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,MP,MD_Min_Unit_Tension,MD Minimum Unit Tension,0
+PR_Lag_Raito,SFLOAT,4,18,4,4,136,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,PR_Lag_Raito,Pinch Roll Lag Raito,0
+PR_pressure_cof,SFLOAT,4,18,4,4,140,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,PR_pressure_cof,PR_pressure_cof,0
+SG_pressure_cof,SFLOAT,4,18,4,4,144,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,SG_pressure_cof,Sideguide pressure trim,0
+thread_tension_muti,SFLOAT,4,18,4,4,148,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,thread_tension_muti,Thread tension correction muti,0
+wr_gap_a,SFLOAT,4,18,4,12,152,1,3,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,Wrapper Roll Gap a,Wrapper Roll Gap a,0
+WR_pressure_cof,SFLOAT,4,18,4,12,164,1,3,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,WR_pressure_cof,wrapper Roll pressure cof,0

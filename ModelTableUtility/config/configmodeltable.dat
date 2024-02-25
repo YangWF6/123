@@ -1,0 +1,4 @@
+Password=ly-1780;Persist Security Info=True;User ID=sa;Initial Catalog=ModelTables;Data Source=localhost;Max Pool Size=20000;
+IPaddress:localhost
+port:6666
+name:ModelTableUtility

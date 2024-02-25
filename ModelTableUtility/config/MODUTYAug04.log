@@ -1,0 +1,49 @@
+Aug 04 14:01:07: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 14:01:08: Connected to Model Table database 
+Aug 04 14:02:39: tableData.LoadGrid error - table CBXPRP column bend_roll_coef not in DB 
+Aug 04 14:02:39: tableData.LoadGrid error - table CBXPRP column cb_pinch_gap_off not in DB 
+Aug 04 14:02:39: tableData.LoadGrid error - table CBXPRP column entry_pinch_gap_off not in DB 
+Aug 04 14:02:39: tableData.LoadGrid error - table CBXPRP column exit_pinch_gap_off not in DB 
+Aug 04 14:02:52: Model Table Utility - Form Unloading 
+Aug 04 14:02:52: Model Table Utility - Closing Database Connection 
+Aug 04 14:02:52: Model Table Utility - Form Unloaded 
+Aug 04 14:02:52: Model Table Utility - Terminated 
+Aug 04 14:13:47: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 14:13:49: Connected to Model Table database 
+Aug 04 14:21:44: Model Table Utility - Form Unloading 
+Aug 04 14:21:44: Model Table Utility - Closing Database Connection 
+Aug 04 14:21:44: Model Table Utility - Form Unloaded 
+Aug 04 14:21:44: Model Table Utility - Terminated 
+Aug 04 15:05:34: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:05:36: Connected to Model Table database 
+Aug 04 15:07:35: UpdateStatusBar(), Error: 游标类型已经更改 
+Aug 04 15:07:39: UpdateStatusBar(), Error: Invalid procedure call or argument 
+Aug 04 15:13:02: Model Table Utility - Form Unloading 
+Aug 04 15:13:02: Model Table Utility - Closing Database Connection 
+Aug 04 15:13:02: Model Table Utility - Form Unloaded 
+Aug 04 15:13:02: Model Table Utility - Terminated 
+Aug 04 15:13:04: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:13:06: Connected to Model Table database 
+Aug 04 15:13:33: UpdateStatusBar(), Error: 游标类型已经更改 
+Aug 04 15:13:41: Model Table Utility - Form Unloading 
+Aug 04 15:13:41: Model Table Utility - Closing Database Connection 
+Aug 04 15:13:41: Model Table Utility - Form Unloaded 
+Aug 04 15:13:41: Model Table Utility - Terminated 
+Aug 04 15:20:04: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:20:06: Connected to Model Table database 
+Aug 04 15:39:06: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:39:08: Connected to Model Table database 
+Aug 04 15:39:36: Model Table Utility - Form Unloading 
+Aug 04 15:39:36: Model Table Utility - Closing Database Connection 
+Aug 04 15:39:36: Model Table Utility - Form Unloaded 
+Aug 04 15:39:37: Model Table Utility - Terminated 
+Aug 04 15:47:08: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:47:09: Connected to Model Table database 
+Aug 04 15:49:08: Configuration : C:\Program Files\PASolutions\Model Tables Utility\ModTbls.cfg 
+Aug 04 15:49:09: Connected to Model Table database 
+Aug 04 15:52:33: Failed to send mdb_update event to CTC_JOB for table CAGP 
+Aug 04 15:52:48: Failed to send mdb_update event to CTC_JOB for table CAGP 
+Aug 04 15:53:26: Model Table Utility - Form Unloading 
+Aug 04 15:53:26: Model Table Utility - Closing Database Connection 
+Aug 04 15:53:26: Model Table Utility - Form Unloaded 
+Aug 04 15:53:26: Model Table Utility - Terminated 

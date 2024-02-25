@@ -1,0 +1,7 @@
+52,6
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,family,Steel family indicator,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grt_idx,Gauge range table indicator,0
+perm_update,BOOLEAN8,1,18,4,1,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,perm_update,Update permitted indicator,2,False,True
+last_update,GE_TIME,8,18,4,8,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,last_update,Last update time,0
+updates,SINT_32,4,18,4,4,17,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,updates,Number of updates,0
+wr_crn_off,SFLOAT,4,18,4,28,24,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,wr_crn_off,Work roll stack crown offset,0

@@ -1,0 +1,10 @@
+100,9
+num_CBXPRP,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,num_CBXPRP,num_CBXPRP,0
+bend_roll_coef,SFLOAT,4,18,4,8,4,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,bend_roll_coef,bend_roll_coef,0
+sg_pos_off,SFLOAT,4,18,4,4,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,sg_pos_off,sg_pos_off,0
+st_pos_off,SFLOAT,4,18,4,4,16,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,st_pos_off,st_pos_off,0
+warm_sg_pos_off,SFLOAT,4,18,4,4,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,warm_sg_pos_off,warm_sg_pos_off,0
+fly_sg_pos_off,SFLOAT,4,18,4,4,24,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fly_sg_pos_off,fly_sg_pos_off,0
+cb_pinch_gap_off,SFLOAT,4,18,4,24,28,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,cb_pinch_gap_off,cb_pinch_gap_off,0
+entry_pinch_gap_off,SFLOAT,4,18,4,24,52,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,entry_pinch_gap_off,entry_pinch_gap_off,0
+exit_pinch_gap_off,SFLOAT,4,18,4,24,76,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,exit_pinch_gap_off,exit_pinch_gap_off,0

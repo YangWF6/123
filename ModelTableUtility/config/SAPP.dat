@@ -1,0 +1,10 @@
+109,9
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Steel family indicator,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grt_idx,Gauge range table indicator,0
+wrt_idx,SINT_32,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,wrt_idx,width range index,0
+perm_update,BOOLEAN8,1,18,4,1,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Update permitted indicator,2,False,True
+last_update,GE_TIME,8,18,4,8,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Last update time,0
+updates,SINT_32,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Number of updates,0
+wr_crn_off,SFLOAT,4,18,4,28,25,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,wr_crn_off,Work roll stack crown offset,0
+op_bnd_of,SFLOAT,4,18,4,28,53,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,kn,op_bnd_of,operator banding force offset,0
+op_shft_of,SFLOAT,4,18,4,28,81,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,op_shft_of,operator shift position offset,0

@@ -1,0 +1,19 @@
+364,18
+grade_name,CHAR,20,18,4,20,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grade_name,Customer Steel Grade number,0
+family,SINT_32,4,18,4,4,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,family,Family number,0
+matl_code,SINT_32,4,18,4,4,24,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,matl_code,Material code,0
+Alloy_code,SINT_32,4,18,4,4,28,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,alloy_code,Grade steel alloy code,0
+grade_flag,SINT_32,4,18,4,4,32,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grade_flag,Grade Flag for Surface inspection,0
+base_fs,SFLOAT,4,18,4,4,36,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,base_fs,Base flow stress,0
+a1,SFLOAT,4,18,4,4,40,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,a1,Phase Transformation constant,0
+a2,SFLOAT,4,18,4,4,44,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,a2,Phase Transformation constant,0
+tmp_start,SFLOAT,4,18,4,4,48,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_start,Phase Transformation start temperature,0
+tmp_end,SFLOAT,4,18,4,4,52,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_end,Phase Transformation stop temperature,0
+sigma_fer_mult,SFLOAT,4,18,4,4,56,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,sigma_fer_mult,Ferritic flow stress modifier,0
+looper_ten_mult,SFLOAT,4,18,4,4,60,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,looper tension mutiplier,looper tension mutiplier,0
+dc_ten_mult,SFLOAT,4,18,4,4,64,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,dc_ten_mult,down coil tension mutiplier,0
+sg_press_mult,SFLOAT,4,18,4,4,68,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,sg_pressure_mult,sg_pressure_mult,0
+fm_use_curve,BOOLEAN8,1,18,4,1,72,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fm_use_curve,When true  use flows method to calculate flow stress in FM area,2,False,True
+rm_use_curve,BOOLEAN8,1,18,4,1,73,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,rm_use_curve,When true  use flows method to calculate flow stress in RM area,2,False,True
+fm_sens_fac,SFLOAT,4,18,4,144,74,1,36,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fm_sens_fac,Sensitivity factor in FM area (one per element),0
+rm_sens_fac,SFLOAT,4,18,4,144,220,1,36,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,rm_sens_fac,Sensitivity factor in RM area (one per element),0

@@ -1,0 +1,21 @@
+519,20
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,Family number Key 1,0
+grt_idx,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,grt_idx,Thickness table (GRT) index Key 2,0
+spy_code,SINT_32,4,18,4,4,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,spy_code,spray code,0
+perm_update_ce,BOOLEAN8,1,18,4,1,12,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update_ce,Permissive to update model table for ce pyro,2,False,True
+tmp_vern_ce,SFLOAT,4,18,4,40,13,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_vern_ce,Coiler entry temperature vernier,0
+tmp_corr_ce,SFLOAT,4,18,4,80,53,2,10,2,0,-2.14748e+009,2.14748e+009,0,0,0,0,C/m,tmp_corr_ce,Coiler entry temperature slope correction (0=first half 1=second half),0
+updates_ce,SINT_32,4,18,4,40,133,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates_ce,Number of updates at coiler entry,0
+last_update_ce,GE_TIME,8,18,4,80,173,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update_ce,Latest Update date and time at coiler entry,0
+perm_update_int,BOOLEAN8,1,18,4,1,253,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update_int,Permissive to update model table for intermediate pyro,2,False,True
+tmp_vern_int,SFLOAT,4,18,4,4,254,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_vern_int,Intermediate temperature vernier,0
+tmp_corr_int,SFLOAT,4,18,4,8,258,1,2,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C/m,tmp_corr_int,Intermediate temperature slope correction (0=first half 1=second half),0
+updates_int,SINT_32,4,18,4,4,266,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates_int,Number of updates at intermediate pyro,0
+last_update_int,GE_TIME,8,18,4,8,270,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update_int,Latest Update date and time at intermediate pyro,0
+tmpBkpt,SINT_32,4,18,4,40,278,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmpBkpt,Temperature breakpoints for selection of hot head and pattern codes,0
+hhtCode,SINT_32,4,18,4,40,318,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,hhtCode,Hot head and tail code keys for CHHT database,0
+patCode,SINT_32,4,18,4,40,358,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,patCode,Spray pattern code keys for CSPP database,0
+effMod,SFLOAT,4,18,4,40,398,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,effMod,Target temperature dependent spray efficiency modifier,0
+hhVern,SFLOAT,4,18,4,40,438,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,hhVern,Hot head vernier,0
+htVern,SFLOAT,4,18,4,40,478,1,10,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,htVern,Hot tail vernier,0
+hhtVernPerm,BOOLEAN8,1,18,4,1,518,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,hhtVernPerm,Permissive to update hot head and tail verniers,2,False,True

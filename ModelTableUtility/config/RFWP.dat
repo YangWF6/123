@@ -1,0 +1,6 @@
+29,5
+family,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,family,family,0
+thick,SINT_32,4,18,4,4,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,thick,thick,0
+permit_adapt,BOOLEAN8,1,18,4,1,8,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,permit_adapt,permit_adapt,2,False,True
+thick_range,CHAR,16,18,4,16,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,thick_range,thick_range,0
+fm_width_adapt,SFLOAT,4,18,4,4,25,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,fm_width_adapt,fm_width_adapt,0

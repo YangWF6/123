@@ -1,0 +1,24 @@
+492,23
+grade_name,CHAR,20,18,4,20,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grade_name,Grade,0
+perm_update,BOOLEAN8,1,18,4,1,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,perm_update,Permissive for model table update,2,False,True
+fs_mult,SFLOAT,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fs_mult,Flow stress multiplier calculated from curve fit,0
+fs_tmp_mult,SFLOAT,4,18,4,64,28,1,16,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fs_tmp_mult,Flow stress multiplier as a function of temperature,0
+fs_tmp,SFLOAT,4,18,4,64,92,1,16,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,c,fs_tmp,Flow stress temperature array,0
+base_ratio,SFLOAT,4,18,4,4,156,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,base_ratio,Hardness ratio to base grade,0
+lheat_mult,SFLOAT,4,18,4,4,160,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,lheat_mult,Phase Transformation latent heat multiplier,0
+frc_err_sd,SFLOAT,4,18,0,28,164,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,frc_err_sd,Standard deviation of force error for all passes,0
+frc_err_ss,SFLOAT,4,18,0,28,192,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,frc_err_ss,Sum of Squares force error for all passes,0
+frc_err_mean,SFLOAT,4,18,0,28,220,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,frc_err_mean,mean values of force error for all passes,0
+frc_err_sum,SFLOAT,4,18,0,28,248,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,frc_err_sum,Sum of force error for all passes,0
+frc_err_count,SINT_32,4,18,4,28,276,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,frc_err_count,force error counter for mean and sd calcs for all passes,0
+updates,SINT_32,4,18,4,4,304,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,updates,Number of updates,0
+last_update,GE_TIME,8,18,4,8,308,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,last_update,Date and time stamp of last update,0
+exponent,SFLOAT,4,18,4,4,316,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,exponent,Grade dependent starin rate exponent,0
+fsn_mult,SFLOAT,4,18,4,4,320,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fsn_mult,Normalized flow stress multiplier,0
+fsp_mult,SFLOAT,4,18,4,28,324,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fsp_mult,Complex flow stress multipliers for all passes,0
+exp_perm,BOOLEAN8,1,18,4,1,352,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,exp_perm,Permissive to update exponent,2,False,True
+fst_perm,BOOLEAN8,1,18,4,1,353,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,fst_perm,Permissive to update flow stress-temperature mult,2,False,True
+spy_eff_mod,SFLOAT,4,18,4,4,354,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,spy_eff_mod,Grade dependent spray modifier,0
+pr_targ_thk,SFLOAT,4,18,4,4,360,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_targ_thk,Previous coil target thickness,0
+basefsmod,SFLOAT,4,18,4,64,364,1,16,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,basefsmod,GRT dependent base flow stress modifier,0
+basefsmod_updates,SINT_32,4,18,4,64,428,1,16,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,basefsmod_updates,Number of flow stress modifier Updates,0

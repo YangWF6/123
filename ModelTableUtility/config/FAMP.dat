@@ -1,0 +1,32 @@
+381,31
+num_famp,SINT_32,4,18,4,4,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,num_famp,key field for model table ( FAMP number ),0
+perm_update,BOOLEAN8,1,18,4,1,4,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,perm_update,Model table enabled for adaptation,2,False,True
+avg_fme_tmp,SFLOAT,4,18,4,4,5,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,avg_fme_tmp,Running Average of FME temperature,0
+thick_vern,SFLOAT,4,18,4,4,9,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,thick_vern,Thickness vernier,0
+tmp_vern,SFLOAT,4,18,4,4,13,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_vern,Temperature vernier,0
+gm_vern,SFLOAT,4,18,4,28,17,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,gm_vern,Gagemeter vernier,0
+gm_vern_z,SFLOAT,4,18,4,28,45,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,gm_vern_z,Gagemeter vernier for first bar after roll change,0
+cof_mult,SFLOAT,4,18,4,28,73,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,cof_mult,Coefficient of Friction multiplier,0
+cof_mult_lub,SFLOAT,4,18,4,28,101,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,cof_mult_lub,Coefficient of Friction multiplier - with lube,0
+base_grade,CHAR,20,18,4,20,129,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,base_grade,Base product grade,0
+base_hard_mult,SFLOAT,4,18,4,4,149,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,base_hard_mult,Base grade hardness multiplier,0
+pr_grade,CHAR,20,18,4,20,153,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,pr_grade,Previous product grade,0
+pr_tgt_thick,SFLOAT,4,18,4,4,173,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_tgt_thick,Previous product target thickness,0
+pr_thick_err,SFLOAT,4,18,4,4,177,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_thick_err,Previous product gauge error,0
+pr_tgt_tmp,SFLOAT,4,18,4,4,181,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,pr_tgt_tmp,Previous product target temperature,0
+pr_tmp_err,SFLOAT,4,18,4,4,185,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,pr_tmp_err,Previous product target temperature error,0
+pr_tgt_wid,SFLOAT,4,18,4,4,189,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_tgt_wid,Previous product target width,0
+updates,SINT_32,4,18,4,4,193,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,updates,Update counter,0
+last_update,GE_TIME,8,18,4,8,197,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,last_update,Last update time,0
+thick_vern_z,SFLOAT,4,18,4,4,205,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,thick_vern_z,Thickness vernier for first bar after roll change,0
+tmp_vern_z,SFLOAT,4,18,4,4,209,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_vern_z,Temperature vernier for first bar after roll change,0
+tmp_adders_z,SFLOAT,4,18,4,28,213,1,7,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,tmp_adders_z,temperature adders for first bar after roll change,0
+enthk_vern,SFLOAT,4,18,4,4,241,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,enthk_vern,Thickness vernier for fm entry thickness,0
+entmp_vern,SFLOAT,4,18,4,4,245,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,C,entmp_vern,Entry Temperature vernier,0
+pr_xbarh,SFLOAT,4,18,4,4,249,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,mm,pr_xbarh,Previous coil xbar thickness,0
+ds_spy_eff_mod,SFLOAT,4,18,4,16,253,1,4,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,ds_spy_eff_mod,Descale Spray Efficiency Modifier for all fm sprays,0
+ds_spy_prv_flw,SFLOAT,4,18,4,16,269,1,4,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,ds_spy_prv_flw,Previous Product descale Spray flow for all sprays,0
+is_spy_eff_mod,SFLOAT,4,18,4,24,285,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0, ,is_spy_eff_mod,Inter-stand Spray Efficiency Modifier for all fm sprays,0
+is_spy_prv_flw,SFLOAT,4,18,4,24,309,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,is_spy_prv_flw,Previous Product Inter-stand Spray flow for all sprays,0
+spy_eff_gauge,SFLOAT,4,18,4,24,333,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,spy_eff_gauge,spy_eff_gauge,0
+spy_eff_gauge_tuning,SFLOAT,4,18,4,24,357,1,6,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,%,spy_eff_gauge_tuning,spy_eff_gauge_tuning,0

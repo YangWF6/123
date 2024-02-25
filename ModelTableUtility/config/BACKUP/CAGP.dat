@@ -1,0 +1,7 @@
+44,6
+grade_name,CHAR,20,18,4,20,0,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,grade_name,Grade,0
+perm_update,BOOLEAN8,1,18,4,1,20,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,perm_update,Permissive for model table update,2,False,True
+lheat_mult,SFLOAT,4,18,4,4,21,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,lheat_mult,Multiplier on latent heat released through phase transformation,0
+gradeMod,SFLOAT,4,18,4,4,28,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,gradeMod,Spray efficiency modifier for grade effects,0
+updates,SINT_32,4,18,4,4,32,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,updates,Number of updates,0
+last_update,GE_TIME,8,18,4,8,36,0,0,0,0,-2.14748e+009,2.14748e+009,0,0,0,0,NULL,last_update,Date and time stamp of last update,0
